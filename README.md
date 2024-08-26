@@ -13,18 +13,21 @@ All the hardware being used in this project is a [ESP32 Nano](https://a.co/d/7Ir
 <center><h1>Wiring</h1></center>
 
 The wiring is as follows:
-
-### RTC:                            ### M100:                            ### MPU:
-- `vcc` -> `vcc` (esp32)            - `vcc` -> `vcc` (esp32)            - `AD0` -> `vcc` (esp32)
-- `gnd` -> `gnd` (esp32)            - `gnd` -> `gnd` (esp32)            - `gnd` -> `gnd` (esp32)
-- `sda` -> `sda` (pin A4) (esp32)   - `sda` -> `RX`  (pin RX0) (esp32)  - `sda` -> `sda` (pin A4) (esp32)
-- `scl` -> `scl` (pin A5) (esp32)   - `scl` -> `TX`  (pin TX1) (esp32)  - `scl` -> `scl` (pin A5) (esp32)
-
-### OLED:                           ### Button1:                         ### Button2:
-- `vcc` -> `vcc` (esp32)            - `gnd` -> `gnd` (esp32)            - `gnd` -> `gnd` (esp32)
-- `gnd` -> `gnd` (esp32)            - Connected to `D7` (esp32)          - Connected to `D8` (esp32)
-- `sda` -> `sda` (pin A4) (esp32)
-- `scl` -> `scl` (pin A5) (esp32)
+|---------------------------------------------------------------------------------------------------------|
+| **RTC**                          | **M100**                          | **MPU**                          |
+|----------------------------------|-----------------------------------|----------------------------------|
+| `vcc` -> `vcc` (esp32)           | `vcc` -> `vcc` (esp32)            | `AD0` -> `vcc` (esp32)           |
+| `gnd` -> `gnd` (esp32)           | `gnd` -> `gnd` (esp32)            | `gnd` -> `gnd` (esp32)           |
+| `sda` -> `sda` (pin A4) (esp32)  | `sda` -> `RX`  (pin RX0) (esp32)  | `sda` -> `sda` (pin A4) (esp32)  |
+| `scl` -> `scl` (pin A5) (esp32)  | `scl` -> `TX`  (pin TX1) (esp32)  | `scl` -> `scl` (pin A5) (esp32)  |
+|---------------------------------------------------------------------------------------------------------|
+| **OLED**                         | **Button1**                       | **Button2**                      |
+|----------------------------------|-----------------------------------|----------------------------------|
+| `vcc` -> `vcc` (esp32)           | `gnd` -> `gnd` (esp32)            | `gnd` -> `gnd` (esp32)           |
+| `gnd` -> `gnd` (esp32)           | Connected to `D7` (esp32)         | Connected to `D8` (esp32)        |
+| `sda` -> `sda` (pin A4) (esp32)  |                                   |                                  |
+| `scl` -> `scl` (pin A5) (esp32)  |                                   |                                  |
+|---------------------------------------------------------------------------------------------------------|
 
 <center><h1>Software</h1></center>
 
