@@ -14,22 +14,37 @@ All the hardware being used in this project is a [ESP32 Nano](https://a.co/d/7Ir
 
 The wiring is as follows:
 
-RTC:  vcc -> vcc (esp32)
-      gnd -> gnd (esp32)
-      sda -> sda (pin A4) (esp32)
-      scl -> scl (pin A5) (esp32)
-M100  vcc -> vcc (esp32)
-      gnd -> gnd (esp32)
-      sda -> RX  (pin RX0) (esp32)
-      scl -> TX  (pin TX1) (esp32)
-MPU   AD0 -> vcc (esp32)
-      gnd -> gnd (esp32)
-      sda -> sda (pin A4) (esp32)
-      scl -> scl (pin A5) (esp32)
-OLED  vcc -> vcc (esp32)
-      gnd -> gnd (esp32)
-      sda -> sda (pin A4) (esp32)
-      scl -> scl (pin A5) (esp32)
+### RTC:
+- `vcc` -> `vcc` (esp32)
+- `gnd` -> `gnd` (esp32)
+- `sda` -> `sda` (pin A4) (esp32)
+- `scl` -> `scl` (pin A5) (esp32)
+
+### M100:
+- `vcc` -> `vcc` (esp32)
+- `gnd` -> `gnd` (esp32)
+- `sda` -> `RX`  (pin RX0) (esp32)
+- `scl` -> `TX`  (pin TX1) (esp32)
+
+### MPU:
+- `AD0` -> `vcc` (esp32)
+- `gnd` -> `gnd` (esp32)
+- `sda` -> `sda` (pin A4) (esp32)
+- `scl` -> `scl` (pin A5) (esp32)
+
+### OLED:
+- `vcc` -> `vcc` (esp32)
+- `gnd` -> `gnd` (esp32)
+- `sda` -> `sda` (pin A4) (esp32)
+- `scl` -> `scl` (pin A5) (esp32)
+
+### Button1:
+- `gnd` -> `gnd` (esp32)
+- Connected to `D7` (esp32)
+
+### Button2:
+- `gnd` -> `gnd` (esp32)
+- Connected to `D8` (esp32)
 
 <center><h1>Software</h1></center>
 
