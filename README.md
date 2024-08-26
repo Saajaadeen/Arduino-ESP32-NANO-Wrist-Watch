@@ -28,7 +28,7 @@ The wiring is as follows:
 | `sda` -> `sda` (pin A4) (esp32)  |                                   |                                  |
 | `scl` -> `scl` (pin A5) (esp32)  |                                   |            
 
-<center>![esp32-watch-diagram](https://github.com/user-attachments/assets/b78cdb3b-bac4-41e4-8b79-26fa4ee5989b)</center>
+![esp32-watch-diagram](https://github.com/user-attachments/assets/9fdaf9bb-90bb-4a1d-860e-5c13382890d2)
 
 <center><h1>Software</h1></center>
 
