@@ -10,11 +10,7 @@ When the board is initially powered on, there is a 10-second delay to simulate a
 
 All the hardware being used in this project are as follows:
 
-- Ardunio Board [ESP32 Nano](https://a.co/d/7IrHWLX)
-- GPS [HGLRC M100](https://a.co/d/gs6aNwb)
-- Accelerometer [MPU-6050](https://a.co/d/1VZh69E)
-- RTC [RTC CLOCK](https://a.co/d/eorKM9G)
-- OLED Screen [OLED 128X64](https://a.co/d/bz1eSNz)
+- Ardunio Board [ESP32 Nano](https://a.co/d/7IrHWLX), GPS [HGLRC M100](https://a.co/d/gs6aNwb), Accelerometer [MPU-6050](https://a.co/d/1VZh69E), RTC [RTC CLOCK](https://a.co/d/eorKM9G), OLED Screen [OLED 128X64](https://a.co/d/bz1eSNz)
 
 <center><h1>Wiring</h1></center>
 
